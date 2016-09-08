@@ -1,3 +1,18 @@
+'''
+Finds the most frequent substrings in a given string based on a specific length
+Given: A string and a substring length
+Return: A list of all most frequent substrings of that legnth (unsorted, can be more than one)
+
+Example
+
+Given input
+ACGTTGCATGTCGCATGATGCATGAGAGCT
+4
+
+Output
+CATG GCAT
+'''
+
 import sys
 
 with open(sys.argv[1]) as file:
